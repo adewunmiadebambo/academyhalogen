@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Threesixtyblog-lite 1.5\n"
+"POT-Creation-Date: 2018-05-04 16:06+0600\n"
+"PO-Revision-Date: 2018-05-04 16:06+0600\n"
+"Last-Translator: \n"
+"Language-Team: TrendyTheme Team\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_html_x;_n_noop;_x;_nx;_n;__;"
+"_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "404"
+msgstr ""
+
+#: 404.php:18
+msgid "Page Not Found!"
+msgstr ""
+
+#: 404.php:20
+msgid "Sorry, we couldn't find the content you were looking for."
+msgstr ""
+
+#: 404.php:22
+msgid "Back Home"
+msgstr ""
+
+#: comments.php:21
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:26
+#, php-format
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:41 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45 comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:29
+#, php-format
+msgid ""
+"Copyright &copy; %1$s Threesixtyblog. Design and developed by TrendyTheme. "
+"Proudly Powered by WordPress"
+msgstr ""
+
+#: functions.php:67
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:123
+msgid "Default Header Image"
+msgstr ""
+
+#: functions.php:171
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:173
+msgid "Appears in the blog sidebar."
+msgstr ""
+
+#: functions.php:181
+msgid "Page Sidebar Area"
+msgstr ""
+
+#: functions.php:183
+msgid "Appears in the Page sidebar."
+msgstr ""
+
+#: functions.php:205 functions.php:207
+msgid "on"
+msgstr ""
+
+#: functions.php:275
+msgid "Play background video"
+msgstr ""
+
+#: functions.php:276
+msgid "Pause background video"
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Base Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Brand Color"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Main Text Color"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Add footer copyright and color options"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Footer Area"
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Change Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Footer color options"
+msgstr ""
+
+#: inc/customizer.php:121 inc/customizer.php:129
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer.php:136 inc/customizer.php:144
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Image"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Red"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Pink"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "Purple"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Blue"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Green"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Yellow"
+msgstr ""
+
+#: inc/customizer.php:255
+msgid "Deep Orange"
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "Brown"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Newer Posts"
+msgstr ""
+
+#: inc/template-tags.php:68 inc/template-tags.php:120
+msgid "Edit Post"
+msgstr ""
+
+#: inc/template-tags.php:111 template-parts/content-gallery.php:84
+#: template-parts/content.php:39
+msgid "No Comment"
+msgstr ""
+
+#: inc/template-tags.php:112 template-parts/content-gallery.php:85
+#: template-parts/content.php:40
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:113 template-parts/content-gallery.php:86
+#: template-parts/content.php:41
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:114 template-parts/content-gallery.php:87
+#: template-parts/content.php:42
+msgid "Comments are closed"
+msgstr ""
+
+#: inc/template-tags.php:186
+msgid "Search"
+msgstr ""
+
+#: template-parts/content-gallery.php:111 template-parts/content.php:63
+msgid "By"
+msgstr ""
+
+#: template-parts/content-gallery.php:132 template-parts/content-page.php:11
+#: template-parts/content-search.php:26 template-parts/content.php:84
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-gallery.php:135 template-parts/content-page.php:14
+#: template-parts/content-search.php:32 template-parts/content.php:87
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/page-header-section.php:14
+#: template-parts/page-header-section.php:17
+#: template-parts/page-header-section.php:20
+msgid "Archive of:"
+msgstr ""
+
+#: template-parts/page-header-section.php:25
+msgid "404 Not Found"
+msgstr ""
+
+#: template-parts/page-header-section.php:29
+msgid "Search result for:"
+msgstr ""
+
+#: template-parts/page-header-section.php:33
+msgid "Category:"
+msgstr ""
+
+#: template-parts/page-header-section.php:37
+msgid "Tag:"
+msgstr ""
+
+#: template-parts/page-header-section.php:41
+msgid "Posts of:"
+msgstr ""
+
+#: template-parts/post-slider.php:41
+msgid "Readmore"
+msgstr ""
+
+#: template-parts/post-slider.php:53
+msgid "Previous"
+msgstr ""
+
+#: template-parts/post-slider.php:57
+msgid "Next"
+msgstr ""
+
+#: template-parts/post-slider.php:62
+msgid "Sorry, no posts matched your criteria."
+msgstr ""

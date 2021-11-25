@@ -1,0 +1,833 @@
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+#navbar .nav-link {
+    font-size: 17px;
+    color: #2E2E38;
+}
+
+#navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#navbar .dropdown-menu {
+    padding: 20px;
+    background-color: hsla(218,86%,14%,0.92);
+    color: #fff;
+    transition: .3s;
+    width: 350%;
+}
+
+#navbar .dropdown-item {
+    color: #fff;
+    transition: .3s;
+}
+
+#navbar .dropdown-item:hover {
+    background-color: hsla(218,86%,14%,0.89);
+    transition: .3s;
+}
+
+#navbar input {
+    border-radius: 16px;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid #051C44;
+}
+
+#navbar button {
+    outline: none;
+}
+
+.slider {
+  position: relative;
+  height: 520px;
+  width: 100%;
+    color: #fff;
+    text-shadow: 0px 1px 2px #000;
+}
+
+.slider-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 0;
+    font-size: 18px;
+}
+
+.slider-panel {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 20;
+}
+
+.slider-panel__navigation {
+  margin: 0 auto;
+  padding: 10px;
+  width: 70%;
+  text-align: center;
+}
+
+.slider-panel__navigation i {
+  margin: 0 3%;
+  font-size: 15px;
+}
+
+.slider-panel__navigation i:hover, .slider-panel__navigation i:active {
+  color: white;
+  cursor: pointer;
+}
+
+.slider-panel__controls {
+  margin: 0 auto;
+  padding: 10px;
+  width: 70%;
+  text-align: center;
+}
+
+.slider-panel__controls i {
+  margin: 0 4%;
+  font-size: 40px;
+}
+
+.slider-panel__controls i:hover, .slider-panel__controls i:active {
+  color: white;
+  cursor: pointer;
+}
+
+.slider .active {
+  z-index: 10;
+  -webkit-animation: 0.2s blur ease-in;
+          animation: 0.2s blur ease-in;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    -webkit-clip-path: circle(75%);
+            clip-path: circle(75%);
+  }
+  100% {
+    -webkit-clip-path: circle(0%);
+            clip-path: circle(0%);
+  }
+}
+
+@keyframes circle {
+  0% {
+    -webkit-clip-path: circle(75%);
+            clip-path: circle(75%);
+  }
+  100% {
+    -webkit-clip-path: circle(0%);
+            clip-path: circle(0%);
+  }
+}
+
+@-webkit-keyframes blur {
+  0% {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+  100% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+@keyframes blur {
+  0% {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+  100% {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+.slider .row {
+    padding-top: 120px;
+}
+
+.slider h3 {
+    font-size: 40px;
+}
+
+.slider .btn1 {
+    background-color: #051C44;
+    color: #fff;
+    border: none;
+    padding: 14px 15px;
+    width: 40%;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.slider .btn1:hover {
+    transition: .3s;
+    box-shadow: 0px 3px 6px #000;
+}
+
+.btnstud {
+    background-color: #051C44;
+    color: #fff;
+    border: none;
+    padding: 14px 15px;
+    width: 40%;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.btnstud:hover {
+    transition: .3s;
+    box-shadow: 0px 3px 6px #000;
+}
+
+#home1 {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #F6F6F6;
+}
+
+#home1 h3 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#home1 .title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#home1 .description {
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+#home1 .btn1 {
+    border: none;
+    background-color: #051C44;
+    color: #fff;
+    padding: 12px;
+    width: 40%;
+    font-size: 12px;
+    transition: .3s;
+}
+
+#home1 .btn1:hover {
+    transition: .3s;
+    box-shadow: 0px 3px 6px #666;
+}
+
+#home2 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#home2 h3 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#home2 .details {
+    background-color: #012336;
+    color: #fff;
+    padding: 18px;
+}
+
+
+.grid_sch{
+height:360px;
+}
+
+.grid_course{
+height:170px;
+}
+
+.course_grid{
+display: none;
+}
+
+.course_slide{
+display: block;
+}
+
+/* .school{
+padding-bottom:300px;
+} */
+
+#home2 .col-md-4 {
+    min-height: 400px;
+}
+
+#home2 .content {
+    font-size: 18px;
+    min-height: 60px;
+}
+
+
+#home2 .duration{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#home2 .btn1 {
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 19px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    transition: .3s;
+}
+
+#home2 .btn1:hover {
+    background-color: #fff;
+    color: #FCAD13;
+    transition: .3s;
+}
+
+#home3 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+#home3 h3 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#home3 .events {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#home3 .event {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 14px;
+}
+
+#home3 .event .title {
+    font-weight: bold;
+}
+
+#home3 h4 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+#home5 {
+    background-image: url('../images/5right.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+color: #fff;
+}
+
+#home15 {
+    background-image: url('../images/banner.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+color: #fff;
+}
+
+#home5 .col-md-6 {
+    padding: 0px;
+}
+
+#home5 .left {
+    padding: 40px 80px;
+    font-size: 22px;
+}
+
+#home5 h2 {
+    font-size: 35px;
+padding-left: 50px;
+padding-top: 45%;
+}
+
+#home5 .btn1 {
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    transition: .3s;
+    margin-left: 50px;
+
+}
+
+#home5 .btn1:hover {
+    color: #2E2E38;
+    background-color: #fff;
+    transition: .3s;
+}
+
+
+#inner h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#school1 {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#school1 h3 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#school2 {
+    color: #000;
+    font-size: 18px;
+}
+
+#school2 h3 {
+    font-size: 30px;
+}
+
+#school2 .left {
+    padding: 80px;
+    background-color: #F8CA72;
+    padding-bottom: 120px;
+    min-height: 433px;
+}
+
+#school2 .right {
+    padding: 80px;
+    padding-bottom: 120px;
+    min-height: 433px;
+    background-color: #F9E6C1;
+}
+
+#school2 .left2 {
+    padding: 40px;
+    background-color: #F8CA72;
+    padding-bottom: 60px;
+    min-height: 433px;
+}
+
+#school2 .middle {
+    padding: 40px;
+    background-color: #fafafa;
+    padding-bottom: 60px;
+    min-height: 433px;
+}
+
+
+
+#school2 .middle div, .right2 div, .left2 div{
+font-size: 15px;
+}
+
+#school2 .right2 {
+    padding: 40px;
+    padding-bottom: 60px;
+    min-height: 433px;
+    background-color: #F9E6C1;
+}
+
+#school2 .btn1 {
+    padding: 15px;
+    width: 50%;
+    border: none;
+    background-color: #051C44;
+    color: #fff;
+    font-size: 14px;
+    transition: .3s;
+}
+
+#school2 .btn1:hover {
+    transition: .3s;
+    box-shadow: 0px 3px 5px #333;
+}
+
+#program1 {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#program1 .btn1{
+    padding: 7px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: #051C44;
+    width: 100%;
+}
+
+#apply1 {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    /*background-image: url("../images/apply.jpg");*/
+    /*background-size: cover;*/
+}
+
+#apply1 h3 {
+    font-size: 30px;
+}
+
+#apply1 .col-md-7 {
+    padding-top: 120px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#apply1 span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#apply1 .form {
+    width: 100%;
+    /*background-color: hsla(0,0%,100%,0.70);*/
+    padding: 35px;
+}
+
+#apply1 .formfield {
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+#apply1 .btn1 {
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    background-color: #051C44;
+    border: none;
+}
+
+
+
+
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #F6F6F6;
+    color: #2E2E38;
+}
+
+#footer a {
+    color: #2E2E38;
+}
+
+#footer .right {
+    text-align: right
+}
+
+#footer i {
+    border: 2px solid #2E2E38;
+    padding: 3px 5px;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    transition: .3s;
+}
+
+#footer i:hover {
+    box-shadow: 0px 3px 6px #888;
+    transition: .3s;
+}
+
+
+
+@media (max-width: 736px) {
+
+.schooleft{
+margin-left:0px;
+}
+
+.course_grid{
+display: block;
+}
+
+.course_slide{
+display: none;
+}
+
+.grid_sch{
+height:auto;
+}
+
+.grid_course{
+height:auto;
+}
+
+.school{
+padding-bottom:2px;
+}
+
+.schoolright{
+margin-right:0px;
+}
+
+    #navbar .dropdown-menu {
+        width: 100%;
+    }
+
+    #footer .right {
+        text-align: left;
+    }
+}
+
+.accordian {
+	width: 805px; height: 300px;
+	overflow: hidden;
+
+	/*Time for some styling*/
+	margin: 100px auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+	width: 1200px;
+	/*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 160px;
+	float: left;
+
+	border-left: 1px solid #888;
+
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 40px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 640px;}
+
+
+.accordian li img {
+	display: block;
+}
+
+/*Image title styles*/
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;
+width: 640px;
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
+
+
+.carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%); background-color: #CC0000; }
+
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.carousel-fade .carousel-item {
+	opacity: 0;
+	-webkit-transition-duration: .6s;
+	transition-duration: .6s;
+	-webkit-transition-property: opacity;
+	transition-property: opacity
+}
+.carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
+	opacity: 1
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-right.active {
+	opacity: 0
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0)
+}
+@supports (transform-style:preserve-3d) {
+	.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0)
+	}
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+@media screen and (max-width: 767px) {
+
+
+#myCarousel h4{
+	font-size:20px;
+	margin-bottom:15px;
+	color:#FFF;
+	line-height:100%;
+	letter-spacing:0.5px;
+	font-weight:100;
+
+}
+#myCarousel p{
+	font-size:14px;
+	margin-bottom:15px;
+	color:#d5d5d5;
+}
+
+
+}
+
+
+
+
+@media (min-width:320px) and (max-width: 480px) {
+
+
+
+}

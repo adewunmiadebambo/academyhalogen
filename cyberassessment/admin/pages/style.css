@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.activeAd{
+	color:#090;
+	font-weight:bold;
+}
+.stopAd{
+	color:#F00;
+	font-weight:bold;
+}
+.pendingAd{
+	color:#333;
+	font-weight:bold;
+}
